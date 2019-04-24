@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;.github;bower_components;node_modules;.bowerrc;.editorconfig;.gitignore;.jscsrc;.jshintrc;.travis.yml;bower.json;CHANGELOG.md;composer.json;composer.lock;gulpfile.js;LICENSE.md;package.json;README.md;ruleset.xml;.gitkeep;.eslintrc.js;.gitattributes;CODE_OF_CONDUCT.md;package-lock.json;phpcs.xml;yarn-error.log;yarn.lock;.cache-loader;.stylelintrc.js;" />
+</project>
