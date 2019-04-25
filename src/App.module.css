@@ -3,16 +3,32 @@
     background-color: #282c34;
 }
 
-.App-content {
+.content {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: calc(10px + 2vmin);
     color: white;
 }
 
-.App-link {
+.link {
     color: #61dafb;
+}
+
+.browser,
+.os {
+    font-size: calc(10px + 2vmin);
+}
+
+.logoLink {
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+
+.logo {
+    width: 270px;
+    max-width: 100%;
+    height: auto;
 }
