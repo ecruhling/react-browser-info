@@ -8,7 +8,7 @@ const result = new WhichBrowser(navigator.userAgent);
 class ShowWindowDimensions extends React.Component {
     state = { width: window.innerWidth, height: window.innerHeight };
     render() {
-        return <span>and the browser window size is {this.state.width}px x {this.state.height}px</span>;
+        return <span>{result.browser.name}'s viewport is {this.state.width}px width x {this.state.height}px height</span>;
     }
     updateDimensions = () => {
         this.setState({ width: window.innerWidth, height: window.innerHeight });
@@ -34,12 +34,12 @@ function App() {
                 </div>
                 <div className={styles.os}>
                     on
-                    a {result.device.manufacturer.toString()} {result.device.model.toString()} {result.device.type.toString()}
+                    your {result.device.manufacturer.toString()} {result.device.model.toString()} {result.device.type.toString()}
                 </div>
                 <div className={styles.os}>
-                    running {result.os.toString()} to access this page,
+                    running {result.os.toString()}.
                 </div>
-                <div className={styles.os}>
+                <div className={styles.os} style={{marginTop: '1rem'}}>
                     <ShowWindowDimensions/>
                 </div>
             </div>
